@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form </title>
+</head>
+<body>
+    <h1>Register for Our E-commerce Website</h1>
+    <h4> Please fill the following form with your personal information</h4>
+    <div> <form action="action_page.html">
+       
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label >Gender</label><br><br>
+       
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="Others">
+        <label for="others">Others</label><br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB"><br><br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="yourfirstname@gmail.com"><br><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone"placeholder="013-00000000" pattern="[0-9]{3}-[0-9]{8}"><br><br>
+        <label for="cv">CV</label>
+       <input type="file" name="CV" id="CV"><br><br>
+       <label for="address">Address</label>
+       <input type="text" id="address" name="address" ><br><br>
+       <label >Current Status</label><br><br>
+       
+       <input type="radio" id="student" name="current status" value="Student">
+       <label for="student">Student</label>
+       <input type="radio" id="employed graduate" name="current status" value="Employed Graduate">
+       <label for="employed graduate">Employed Graduate</label>
+       <input type="radio" id="unemployed graduate" name="current status" value="Unemployed Graduate">
+       <label for="unemployed graduate">Unemployed Graduate</label><br><br>
+       
+       <input type="radio" id="term & policy" name="term & policy" value=" I accept the Terms of Use & Privacy Policy">
+       <label for="term & policy">I accept the Terms of Use & Privacy Policy</label><br><br><br>
+       <input type="submit" value="Submit">
+
+
+      
+
+    </form>
+</div>
+    
+</body>
+</html>
