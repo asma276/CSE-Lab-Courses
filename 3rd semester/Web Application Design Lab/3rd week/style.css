@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(231, 226, 227);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 50px;
+    color: #d474a9;
+  
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    display: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border-radius: 8px;
+    background-color: #d0bef1;
+    color: rgb(17, 17, 17);
+    display: inline-block;
+}
+
+.btn:hover {
+   background-color: #dd1583;
+    transform: translate(200px,-500px);
+
+}
